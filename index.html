@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aditya Varre</title>
+  <meta name="description" content="Academic homepage of Aditya Varre — research, publications, and contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+
+    <!-- ===================== NAV ===================== -->
+    <nav class="nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="publications.html">Publications</a>
+    </nav>
+
+    <!-- ===================== HEADER ===================== -->
+    <header class="profile">
+      <div class="photo"><img src="assets/photo.jpg" alt="Photo of Aditya Varre" /></div>
+      <div class="profile-info">
+        <h1>Aditya Varre</h1>
+        <p class="affiliation">
+          PhD Candidate, <a href="https://www.epfl.ch/labs/tml/" target="_blank" rel="noopener">Theory of Machine Learning Lab</a><br />
+          EPFL, Lausanne, Switzerland
+        </p>
+        <p class="links">
+          <a href="mailto:aditya.varre@epfl.ch">Email</a>
+          <a href="https://scholar.google.com/citations?user=wbB9au0AAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+        </p>
+      </div>
+    </header>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section>
+      <h2>About</h2>
+      <p>
+        I am a PhD candidate in the
+        <a href="https://www.epfl.ch/labs/tml/" target="_blank" rel="noopener">Theory of Machine Learning Lab</a>
+        at EPFL, advised by <a href="https://people.epfl.ch/nicolas.flammarion" target="_blank" rel="noopener">Nicolas Flammarion</a>.
+        My research lies at the intersection of optimization and the theory of deep learning.
+      </p>
+      <p>
+        I work on the training dynamics of simple neural networks, with a particular focus on the implicit
+        regularization induced by stochastic noise and on how transformers learn in context.
+      </p>
+    </section>
+
+    <!-- ===================== PUBLICATIONS ===================== -->
+    <section>
+      <h2>Selected Publications</h2>
+      <p class="note">A selection of my work (* denotes equal contribution). See the
+        <a href="publications.html">full list of publications</a> or my
+        <a href="https://scholar.google.com/citations?user=wbB9au0AAAAJ" target="_blank" rel="noopener">Google Scholar</a>.</p>
+
+      <ul class="publications">
+        <li>
+          <span class="pub-title">Gradient Flow Polarizes Softmax Outputs Towards Low-Entropy Solutions</span><br />
+          <span class="pub-authors"><strong>Aditya Varre</strong>, Mark Rofin, Nicolas Flammarion</span><br />
+          <span class="pub-venue">arXiv preprint, 2026</span>
+          <span class="pub-actions">[<a href="https://arxiv.org/abs/2603.06248" target="_blank" rel="noopener">arXiv</a>] [<a href="https://arxiv.org/pdf/2603.06248" target="_blank" rel="noopener">PDF</a>]</span>
+        </li>
+        <li>
+          <span class="pub-title">Learning In-Context n-grams with Transformers: Sub-n-grams Are Near-Stationary Points</span><br />
+          <span class="pub-authors"><strong>Aditya Varre</strong>*, Gizem Yüce*, Nicolas Flammarion</span><br />
+          <span class="pub-venue">International Conference on Machine Learning (ICML), 2025</span>
+          <span class="pub-actions">[<a href="https://arxiv.org/abs/2508.12837" target="_blank" rel="noopener">arXiv</a>] [<a href="https://arxiv.org/pdf/2508.12837" target="_blank" rel="noopener">PDF</a>]</span>
+        </li>
+        <li>
+          <span class="pub-title">SGD vs GD: Rank Deficiency in Linear Networks</span><br />
+          <span class="pub-authors"><strong>Aditya Varre</strong>, Margarita Sagitova, Nicolas Flammarion</span><br />
+          <span class="pub-venue">Advances in Neural Information Processing Systems (NeurIPS), 2024</span>
+          <span class="pub-actions">[<a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/6ec81faa568317949b0ff3be4d87cced-Paper-Conference.pdf" target="_blank" rel="noopener">PDF</a>] [<a href="https://openreview.net/forum?id=0AyYFOgbY5" target="_blank" rel="noopener">OpenReview</a>]</span>
+        </li>
+        <li>
+          <span class="pub-title">SGD with Large Step Sizes Learns Sparse Features</span><br />
+          <span class="pub-authors">Maksym Andriushchenko, <strong>Aditya Varre</strong>, Loucas Pillaud-Vivien, Nicolas Flammarion</span><br />
+          <span class="pub-venue">International Conference on Machine Learning (ICML), 2023</span>
+          <span class="pub-actions">[<a href="https://arxiv.org/abs/2210.05337" target="_blank" rel="noopener">arXiv</a>] [<a href="https://arxiv.org/pdf/2210.05337" target="_blank" rel="noopener">PDF</a>]</span>
+        </li>
+        <li>
+          <span class="pub-title">On the Spectral Bias of Two-Layer Linear Networks</span><br />
+          <span class="pub-authors"><strong>Aditya Varre</strong>, Maria-Luiza Vladarean, Loucas Pillaud-Vivien, Nicolas Flammarion</span><br />
+          <span class="pub-venue">Advances in Neural Information Processing Systems (NeurIPS), 2023</span>
+          <span class="pub-actions">[<a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/cad2fd66cf88226d868f90a7cbaa4a53-Paper-Conference.pdf" target="_blank" rel="noopener">PDF</a>]</span>
+        </li>
+        <li>
+          <span class="pub-title">Accelerated SGD for Non-Strongly-Convex Least Squares</span><br />
+          <span class="pub-authors"><strong>Aditya Varre</strong>, Nicolas Flammarion</span><br />
+          <span class="pub-venue">Conference on Learning Theory (COLT), 2022</span>
+          <span class="pub-actions">[<a href="https://arxiv.org/abs/2203.01744" target="_blank" rel="noopener">arXiv</a>] [<a href="https://arxiv.org/pdf/2203.01744" target="_blank" rel="noopener">PDF</a>]</span>
+        </li>
+        <li>
+          <span class="pub-title">Last Iterate Convergence of SGD for Least-Squares in the Interpolation Regime</span><br />
+          <span class="pub-authors"><strong>Aditya Varre</strong>, Loucas Pillaud-Vivien, Nicolas Flammarion</span><br />
+          <span class="pub-venue">Advances in Neural Information Processing Systems (NeurIPS), 2021</span>
+          <span class="pub-actions">[<a href="https://arxiv.org/abs/2102.03183" target="_blank" rel="noopener">arXiv</a>] [<a href="https://arxiv.org/pdf/2102.03183" target="_blank" rel="noopener">PDF</a>]</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer>
+      <p>Last updated June 2026 · Built with plain HTML/CSS · Hosted on GitHub Pages</p>
+    </footer>
+
+  </main>
+</body>
+</html>
