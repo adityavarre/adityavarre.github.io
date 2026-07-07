@@ -6,7 +6,7 @@
   --bg: #ffffff;
   --card: #fafafa;
   --rule: #ececec;
-  --max-width: 780px;
+  --max-width: 920px;
 }
 
 @media (prefers-color-scheme: dark) {
