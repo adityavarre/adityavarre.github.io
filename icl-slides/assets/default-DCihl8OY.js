@@ -1,1 +1,0 @@
-import{o as t,e as a,i as o,g as r,t as n,C as l}from"./modules/vue-CpWU7Wvm.js";import{u as c}from"./slidev/context-utV1MQaS.js";const i={class:"slidev-layout default"},_={class:"page-no"},m={__name:"default",setup(d){const{$page:e}=c();return(s,p)=>(t(),a("div",i,[o(s.$slots,"default"),r("div",_,n(l(e)),1)]))}};export{m as _};
